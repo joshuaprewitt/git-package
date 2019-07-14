@@ -1,0 +1,7 @@
+<instructions>
+    <targetAttributes bitness="64" readOnly="keepSource"/>
+    <customExecutes>
+        <customExecute step="install" root="Temp" exeName="Git-2.21.0-64-bit.exe" arguments="/SILENT" wait="y"/>
+        <customExecute step="uninstall" root="ProgramFiles" exeName="Git\unins000.exe" arguments="/SILENT" wait="y" ignoreErrors="y"/>
+    </customExecutes>
+</instructions>
