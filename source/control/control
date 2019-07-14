@@ -1,11 +1,11 @@
 Package: git
 Version: 2.21.0
-Section: Infrastructure
+Section: Utilities
 Architecture: windows_x64
 Maintainer: Josh Prewitt <support@ni.com>
 XB-DisplayName: Git
 Description: Git client
 Built-Using: nipkg
 XB-Plugin: file
-UserVisible: true
-VisibleForDeployment: yes
+XB-UserVisible: yes
+XB-VisibleForDeployment: yes
